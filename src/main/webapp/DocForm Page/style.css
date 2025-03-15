@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+.myForm-wo-new{
+    margin: 15px 0 0 360px;
+    width: 850px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bs-light);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.main-class{
+    margin: 50px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    }
+.i{
+    align-self: center;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    /* background-color: var(--bs-light); */
+    background-color: #d5d1defe;
+    font-size: 22px;
+    width: 150px;
+}
+.i:focus{
+    background-color: var(--bs-warning-bg-subtle);
+}
+.sku-excel{
+    margin-top: 70px;
+}
+
+.field1{
+    margin-top: 30px;
+}
+.field2{
+    margin-top: 40px;
+}
+.sku-pdf-btn1,.sku-pdf-btn2{
+	width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: var(--bs-warning);
+    border:none;
+}
+.sku-excel-btn1{
+    margin-left: 120px;
+    margin-top: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: var(--bs-warning);
+    border:none;
+}
+.sku-excel-btn2{
+    width: 100px;
+    height: 35px;
+    margin-left: 73px;
+    border-radius: 10px;
+    background-color: var(--bs-warning);
+    border:none;
+}
+.sku-excel-btn{
+    margin-top: 30px;
+}
+.sku-excel-btn1{
+    margin-right: 10px;
+}
+.sku-pdf-label{
+    border: 1px solid black;
+}
+.sku-excel-label{
+    border: 1px solid black;
+}
+.output-div{
+	margin: 20px 0 0 50px;	
+}
+
+.output-space{
+	height: 80px;
+	width: 350px;
+	background-color:white;
+	/* margin: 20px 0 0 140px; */
+	font-size:25px;
+}
+.num-space{
+	height: 450px;
+	width: 350px;
+	background-color:white;
+	/* margin: 10px 0 0 0px; */
+	font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>GenerateDocument</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AwsImgDownloadServlet</display-name>
+    <servlet-name>AwsImgDownloadServlet</servlet-name>
+    <servlet-class>skupdfNew.AwsImgDownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AwsImgDownloadServlet</servlet-name>
+    <url-pattern>/AwsImgDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LocalImgDownloadServlet</display-name>
+    <servlet-name>LocalImgDownloadServlet</servlet-name>
+    <servlet-class>skupdfNew.LocalImgDownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LocalImgDownloadServlet</servlet-name>
+    <url-pattern>/LocalImgDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SkuExcelServlet</display-name>
+    <servlet-name>SkuExcelServlet</servlet-name>
+    <servlet-class>tagfile.SkuExcelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SkuExcelServlet</servlet-name>
+    <url-pattern>/SkuExcelServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
